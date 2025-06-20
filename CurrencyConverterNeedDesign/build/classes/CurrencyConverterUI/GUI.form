@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-26,0,0,3,47"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePre" type="java.lang.String" value="CurrencyConverter.putItem();"/>
+      </AuxValues>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="0" y="0" width="230" height="490"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButtonBulkExchangeTab">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="jButtonBulkExchangeTab.setMargin(new Insets(5, 8, 5, 8));">
+              <Connection code="new javax.swing.ImageIcon(getClass().getResource(&quot;/CurrencyConverterUI/images/money (1).png&quot;))); // NOI18N" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Bulk Exchange"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonBulkExchangeTabActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="120" width="190" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonSpecificExchangeTab">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="new javax.swing.ImageIcon(getClass().getResource(&quot;/CurrencyConverterUI/images/icons8-currency-exchange-40.png&quot;))); // NOI18N" type="code"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Specific Exchange"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonSpecificExchangeTabActionPerformed"/>
+          </Events>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="30" width="190" height="70"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="140" y="-35" width="-1" height="830"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab1">
+                <Property name="tabTitle" type="java.lang.String" value="tab1"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="108" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jComboBoxBaseCurrency" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="386" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel2" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="jTextFieldAmount" min="-2" pref="95" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                                      <Component id="ExchangeButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jComboBoxBaseCurrency" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jTextFieldAmount" alignment="3" min="-2" pref="42" max="-2" attributes="0"/>
+                          <Component id="ExchangeButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="320" max="-2" attributes="0"/>
+                      <EmptySpace pref="349" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Base Currency"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter Amount :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxBaseCurrency">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="33">
+                    <StringItem index="0" value="Euro"/>
+                    <StringItem index="1" value="United States Dollar"/>
+                    <StringItem index="2" value="Japanese Yen"/>
+                    <StringItem index="3" value="Bulgarian Lev"/>
+                    <StringItem index="4" value="Czech Koruna"/>
+                    <StringItem index="5" value="Danish Krone"/>
+                    <StringItem index="6" value="British Pound"/>
+                    <StringItem index="7" value="Hungarian Forint"/>
+                    <StringItem index="8" value="Polish Z&#x142;oty"/>
+                    <StringItem index="9" value="Romanian Leu"/>
+                    <StringItem index="10" value="Swedish Krona"/>
+                    <StringItem index="11" value="Swiss Franc"/>
+                    <StringItem index="12" value="Icelandic Kr&#xf3;na"/>
+                    <StringItem index="13" value="Norwegian Krone"/>
+                    <StringItem index="14" value="Croatian Kuna"/>
+                    <StringItem index="15" value="Russian Ruble"/>
+                    <StringItem index="16" value="Turkish Lira"/>
+                    <StringItem index="17" value="Australian Dollar"/>
+                    <StringItem index="18" value="Brazilian Real"/>
+                    <StringItem index="19" value="Canadian Dollar"/>
+                    <StringItem index="20" value="Chinese Yuan Renminbi"/>
+                    <StringItem index="21" value="Hong Kong Dollar"/>
+                    <StringItem index="22" value="Indonesian Rupiah"/>
+                    <StringItem index="23" value="Israeli New Shekel"/>
+                    <StringItem index="24" value="Indian Rupee"/>
+                    <StringItem index="25" value="South Korean Won"/>
+                    <StringItem index="26" value="Mexican Peso"/>
+                    <StringItem index="27" value="Malaysian Ringgit"/>
+                    <StringItem index="28" value="New Zealand Dollar"/>
+                    <StringItem index="29" value="Philippine Peso"/>
+                    <StringItem index="30" value="Singapore Dollar"/>
+                    <StringItem index="31" value="Thai Baht"/>
+                    <StringItem index="32" value="South African Rand"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxBaseCurrencyActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldAmount">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldAmountActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="ExchangeButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exchange"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ExchangeButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="0">
+                        <Column editable="true" title="Currency Name" type="java.lang.Object"/>
+                        <Column editable="true" title="Currency Code" type="java.lang.Object"/>
+                        <Column editable="true" title="Rate" type="java.lang.Object"/>
+                        <Column editable="true" title="Value" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                    <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                      <TableColumnModel selectionModel="0">
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                        <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                          <Title/>
+                          <Editor/>
+                          <Renderer/>
+                        </Column>
+                      </TableColumnModel>
+                    </Property>
+                    <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                      <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="tab2">
+                <Property name="tabTitle" type="java.lang.String" value="tab2"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jButtonExchangeSpecific" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="283" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="jLabelConvertedAmount" min="-2" pref="245" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="109" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel3" min="-2" pref="110" max="-2" attributes="0"/>
+                          <Component id="jLabelEnterAmount" min="-2" pref="95" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jComboBoxBaseCurrencySpecific" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelBaseCurrency" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jTextFieldAmountSpecific" min="-2" pref="95" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jComboBoxBaseCurrencySpecific1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelBaseCurrency1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="86" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
+                              <Component id="jLabelEnterAmount" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabelBaseCurrency" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jComboBoxBaseCurrencySpecific" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jTextFieldAmountSpecific" alignment="1" min="-2" pref="42" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelBaseCurrency1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jComboBoxBaseCurrencySpecific1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabelConvertedAmount" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jButtonExchangeSpecific" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="534" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JComboBox" name="jComboBoxBaseCurrencySpecific">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="33">
+                    <StringItem index="0" value="Euro"/>
+                    <StringItem index="1" value="United States Dollar"/>
+                    <StringItem index="2" value="Japanese Yen"/>
+                    <StringItem index="3" value="Bulgarian Lev"/>
+                    <StringItem index="4" value="Czech Koruna"/>
+                    <StringItem index="5" value="Danish Krone"/>
+                    <StringItem index="6" value="British Pound"/>
+                    <StringItem index="7" value="Hungarian Forint"/>
+                    <StringItem index="8" value="Polish Z&#x142;oty"/>
+                    <StringItem index="9" value="Romanian Leu"/>
+                    <StringItem index="10" value="Swedish Krona"/>
+                    <StringItem index="11" value="Swiss Franc"/>
+                    <StringItem index="12" value="Icelandic Kr&#xf3;na"/>
+                    <StringItem index="13" value="Norwegian Krone"/>
+                    <StringItem index="14" value="Croatian Kuna"/>
+                    <StringItem index="15" value="Russian Ruble"/>
+                    <StringItem index="16" value="Turkish Lira"/>
+                    <StringItem index="17" value="Australian Dollar"/>
+                    <StringItem index="18" value="Brazilian Real"/>
+                    <StringItem index="19" value="Canadian Dollar"/>
+                    <StringItem index="20" value="Chinese Yuan Renminbi"/>
+                    <StringItem index="21" value="Hong Kong Dollar"/>
+                    <StringItem index="22" value="Indonesian Rupiah"/>
+                    <StringItem index="23" value="Israeli New Shekel"/>
+                    <StringItem index="24" value="Indian Rupee"/>
+                    <StringItem index="25" value="South Korean Won"/>
+                    <StringItem index="26" value="Mexican Peso"/>
+                    <StringItem index="27" value="Malaysian Ringgit"/>
+                    <StringItem index="28" value="New Zealand Dollar"/>
+                    <StringItem index="29" value="Philippine Peso"/>
+                    <StringItem index="30" value="Singapore Dollar"/>
+                    <StringItem index="31" value="Thai Baht"/>
+                    <StringItem index="32" value="South African Rand"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBoxBaseCurrencySpecificActionPerformed"/>
+              </Events>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JTextField" name="jTextFieldAmountSpecific">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextFieldAmountSpecificActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelEnterAmount">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Enter Amount :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelBaseCurrency">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Base Currency"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButtonExchangeSpecific">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Exchange"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonExchangeSpecificActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="jComboBoxBaseCurrencySpecific1">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="33">
+                    <StringItem index="0" value="Euro"/>
+                    <StringItem index="1" value="United States Dollar"/>
+                    <StringItem index="2" value="Japanese Yen"/>
+                    <StringItem index="3" value="Bulgarian Lev"/>
+                    <StringItem index="4" value="Czech Koruna"/>
+                    <StringItem index="5" value="Danish Krone"/>
+                    <StringItem index="6" value="British Pound"/>
+                    <StringItem index="7" value="Hungarian Forint"/>
+                    <StringItem index="8" value="Polish Z&#x142;oty"/>
+                    <StringItem index="9" value="Romanian Leu"/>
+                    <StringItem index="10" value="Swedish Krona"/>
+                    <StringItem index="11" value="Swiss Franc"/>
+                    <StringItem index="12" value="Icelandic Kr&#xf3;na"/>
+                    <StringItem index="13" value="Norwegian Krone"/>
+                    <StringItem index="14" value="Croatian Kuna"/>
+                    <StringItem index="15" value="Russian Ruble"/>
+                    <StringItem index="16" value="Turkish Lira"/>
+                    <StringItem index="17" value="Australian Dollar"/>
+                    <StringItem index="18" value="Brazilian Real"/>
+                    <StringItem index="19" value="Canadian Dollar"/>
+                    <StringItem index="20" value="Chinese Yuan Renminbi"/>
+                    <StringItem index="21" value="Hong Kong Dollar"/>
+                    <StringItem index="22" value="Indonesian Rupiah"/>
+                    <StringItem index="23" value="Israeli New Shekel"/>
+                    <StringItem index="24" value="Indian Rupee"/>
+                    <StringItem index="25" value="South Korean Won"/>
+                    <StringItem index="26" value="Mexican Peso"/>
+                    <StringItem index="27" value="Malaysian Ringgit"/>
+                    <StringItem index="28" value="New Zealand Dollar"/>
+                    <StringItem index="29" value="Philippine Peso"/>
+                    <StringItem index="30" value="Singapore Dollar"/>
+                    <StringItem index="31" value="Thai Baht"/>
+                    <StringItem index="32" value="South African Rand"/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelBaseCurrency1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Base Currency"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Converted Amount"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabelConvertedAmount">
+              <Properties>
+                <Property name="horizontalAlignment" type="int" value="0"/>
+                <Property name="text" type="java.lang.String" value="0.0"/>
+                <Property name="horizontalTextPosition" type="int" value="0"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
